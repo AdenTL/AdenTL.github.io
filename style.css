@@ -6,11 +6,15 @@
     padding: 0;
 }
 
-#headshot {
+.headshotContainer {
     display: flex;
+    justify-content: center;
+}
+
+#headshot {
+    border-radius: 20px;
     max-width: 300px;
     max-height: 300px;
-    margin-left: 220px;
     margin-top: 50px;
 }
 
@@ -19,6 +23,11 @@ main,
 footer {
     margin: 0 auto;
     max-width: 1200px;
+}
+header {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
 }
 
 html {
